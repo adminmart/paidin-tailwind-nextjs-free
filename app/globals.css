@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    --scroll-behavior: smooth !important;
+    scroll-behavior: smooth !important;
+}
+
+html:not([data-scroll="0"]) .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white !important;
+    opacity: 1.9;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+    transition: 0.4s linear;
+    padding: 0px !important;
+    z-index: 3;
+}
+
+html:not([data-scroll="0"]) .ttty {
+    background-color: #0057FF !important;
+    color: white !important;
+}
+
+.bg-header {
+    background: linear-gradient(120.3deg, #D5F2FF 31.56%, rgba(255, 255, 255, 0) 94.83%);
+}
+.bg-navbar {
+    background: linear-gradient(120.3deg, #D5F2FF 36.56%, rgba(255, 255, 255, 0) 122.83%);
+}
+
+.w-270px {
+    width: 270px;
+}
+
+.space-links {
+    transition: .3s;
+}
+
+.featureShadow {
+    box-shadow: 0px 72px 129px rgba(0, 0, 0, 0.1)
+}
+
+.space-links:hover {
+    letter-spacing: 1px;
+}
+
+@media (min-width: 800px) {
+    .lh-133 {
+        line-height: 133.5% !important;
+    }
+}
+
+.lh-143 {
+    line-height: 143.5% !important;
+}
+
+.lh-173 {
+    line-height: 173.5% !important;
+}
+
+.pricing-bg {
+    background: linear-gradient(180deg, #D4F2FF 0%, rgba(212, 242, 255, 0) 100%);
+}
+
+.bxshd {
+    box-shadow: 0px 72px 129px rgba(0, 0, 0, 0.1);
+}
+
+.footer-icons {
+    transition: .5s;
+}
+
+.footer-icons:hover {
+    transform: translateY(-8px);
+}
+
+.footer-icons:hover>.sepiaa {
+    filter: invert(100.10);
+}
+
+.socialBg {
+    background: rgba(255, 255, 255, 0.2);
+}
