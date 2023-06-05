@@ -17,6 +17,7 @@ module.exports = {
       'dodgerblue': "#0057FF",
       'midnightblue': '#001B50',
       'electricblue' : '#1444EF',
+      'grey500': '#ECECEC',
       'blue' : "#1443ED",
       'lightgrey' : "#A8AEB9",
       'cornflowerblue' : "#6493EA",
