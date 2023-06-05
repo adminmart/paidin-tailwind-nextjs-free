@@ -21,6 +21,7 @@ module.exports = {
       'blue' : "#1443ED",
       'lightgrey' : "#A8AEB9",
       'cornflowerblue' : "#6493EA",
+      'translucentwhite' : "rgba(255, 255, 255, 0.65)",
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
